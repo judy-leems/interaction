@@ -1,0 +1,7 @@
+{
+	"presets": [
+		"es2015",
+		["minify", {builtIns: false, evaluate: false, mangle: false}]
+	],
+  "plugins": []
+}

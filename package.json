@@ -1,0 +1,25 @@
+{
+  "name": "interaction",
+  "version": "1.0.0",
+  "description": "애플 사이트 코딩",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./public/src/js -d ./public/lib/js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/judy-leems/interaction.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/judy-leems/interaction/issues"
+  },
+  "homepage": "https://github.com/judy-leems/interaction#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-minify": "^0.5.1"
+  }
+}
