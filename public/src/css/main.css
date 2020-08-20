@@ -15,9 +15,12 @@ body {
   letter-spacing: -0.05em;
   background: #fff; 
 }
-
 p {
   line-height: 1.6
+}
+a {
+  color: rgb(29, 29, 31);
+  text-decoration: none;
 }
 
 /* ==========================================================================
@@ -27,11 +30,28 @@ p {
 .global-nav {
   height: 44px;
 }
+.local-nav {
+  height: 52px;
+  border-bottom: 1px solid #ddd;
+}
+.local-nav-links,
 .global-nav-links {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 100px;
+  max-width: 1000px;
   height: 100%;
   margin: 0 auto;
+}
+.global-nav-links {
+  justify-content: space-between;
+}
+.product-name {
+  margin-right: auto; 
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.local-nav-item {
+  margin-left: 2em;
+  font-size: 0.8rem;
 }
