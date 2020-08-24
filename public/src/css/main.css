@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   color: rgb(29, 29, 31);
   letter-spacing: -0.05em;
   background: #fff; 
@@ -29,9 +29,11 @@ a {
 
 .global-nav {
   height: 44px;
+  padding: 0 1rem;
 }
 .local-nav {
   height: 52px;
+  padding: 0 1rem;
   border-bottom: 1px solid #ddd;
 }
 .local-nav-links,
@@ -54,4 +56,115 @@ a {
 .local-nav-item {
   margin-left: 2em;
   font-size: 0.8rem;
+}
+
+.scroll-section {
+  padding-top: 50vh;
+}
+
+.main-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3em;
+  font-size: 2.5rem;
+}
+.main-message p {
+  line-height: 1.25;
+  font-weight: 700;
+  text-align: center;
+}
+.description {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1em;
+  font-size: 1.2rem;
+  color: #888;
+}
+.description strong {
+  float: left;
+  margin-right: 0.2em;
+  font-size: 3rem;
+  color: rgb(29, 29, 31);
+}
+.main-message small {
+  display: block;
+  margin-bottom: 0.5em;
+  font-size: 1.2rem;
+}
+.desc-message {
+  width: 50%;
+  font-weight: 700;
+}
+.pin {
+  width: 1px; 
+  height: 100px;
+  background: rgba(29,29,31);
+}
+.mid-message {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  font-size: 2rem;
+  color: #888;
+}
+.mid-message strong {
+  color: rgb(29, 29, 31);
+}
+.canvas-caption {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  color: #888;
+  font-size: 1.2rem;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7rem;
+  color: #fff;
+  background: darkorange;
+}
+
+
+#scroll-section-0 h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+#scroll-section2 .main-message {
+  font-size: 3.5rem;
+}
+
+@media (min-width: 1024px) {
+  #scroll-section-0 h1 {
+    font-size: 9vw;
+  }
+  .main-message {
+    font-size: 4vw;
+  }
+  .description {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .description strong {
+    font-size: 6rem;
+    font-weight: 700;
+  }
+
+  .main-message small {
+    font-size: 1.5vw;
+  }
+  .desc-message {
+    width: 20%;
+  }
+  .mid-message {
+    font-size: 4vw;
+  }
+  .canvas-caption {
+    font-size: 2rem;
+  }
+    #scroll-section-2 .main-message {
+    font-size: 6vw;
+  }
 }
