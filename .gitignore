@@ -10,3 +10,4 @@ node_modules
 package-lock.json
 *.log
 public/lib/js/main.js
+*.idea
